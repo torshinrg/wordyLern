@@ -1,46 +1,15 @@
-Shared Dependencies:
+Shared dependencies between the files:
 
-1. Exported Variables:
-   - `mainColor` (light purple)
-   - `secondaryColor` (white)
+1. Flashcard: This is a data schema that is shared between 'lib/widgets/flashcard_widget.dart' and 'lib/models/flashcard.dart'. It is used as a parameter in the FlashcardWidget constructor.
 
-2. Data Schemas:
-   - `Word` (with properties: word, translation, learningStatus)
-   - `Flashcard` (with properties: word, learningStatus)
-   - `Chat` (with properties: message, sender)
+2. FlashcardWidget: This is a widget defined in 'lib/widgets/flashcard_widget.dart'. It is used in 'lib/screens/vocabulary_list_screen.dart'.
 
-3. ID Names of DOM Elements:
-   - `vocabularyList`
-   - `flashcard`
-   - `chatScreen`
+3. ThemeData: This is a factory constructor from the Flutter library that is used in 'lib/utils/styles.dart'. It is used to define the theme of the app.
 
-4. Message Names:
-   - `wordAdded`
-   - `wordUpdated`
-   - `wordDeleted`
-   - `flashcardUpdated`
-   - `messageSent`
+4. accentColor: This is a named parameter used in 'lib/utils/styles.dart'. It is part of the ThemeData constructor.
 
-5. Function Names:
-   - `getVocabularyList`
-   - `getFlashcards`
-   - `getChatMessages`
-   - `addWord`
-   - `updateWord`
-   - `deleteWord`
-   - `updateFlashcard`
-   - `sendMessage`
+5. VocabularyListWidget: This is a widget defined in 'lib/screens/vocabulary_list_screen.dart'. It is used with a positional argument 'snapshot.data'.
 
-6. Shared Libraries:
-   - `flutter/material.dart` (for UI components)
-   - `flutter/services.dart` (for services)
+6. snapshot.data: This is a positional argument used in 'lib/screens/vocabulary_list_screen.dart'. It is passed to the VocabularyListWidget.
 
-7. Shared Styles:
-   - `appTheme` (for the application's theme)
-   - `wordStyle` (for the style of the words)
-   - `flashcardStyle` (for the style of the flashcards)
-   - `chatStyle` (for the style of the chat)
-
-8. Shared Assets:
-   - `assets/images/`
-   - `assets/fonts/`
+7. secondaryColor: This is a variable used in 'lib/utils/styles.dart'. It is used as a value for the 'accentColor' parameter in ThemeData.
