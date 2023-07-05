@@ -1,46 +1,19 @@
-Shared Dependencies:
+The shared dependencies between the files are:
 
-1. Exported Variables:
-   - `mainColor` (light purple)
-   - `secondaryColor` (white)
+1. Flashcard: This is a class defined in 'lib/models/flashcard.dart' and used as a parameter type in 'lib/widgets/flashcard_widget.dart'.
 
-2. Data Schemas:
-   - `Word` (with properties: word, translation, learningStatus)
-   - `Flashcard` (with properties: word, learningStatus)
-   - `Chat` (with properties: message, sender)
+2. accentColor: This is a named parameter used in 'lib/utils/styles.dart' and expected in '.../flutter/lib/src/material/theme_data.dart'.
 
-3. ID Names of DOM Elements:
-   - `vocabularyList`
-   - `flashcard`
-   - `chatScreen`
+3. ThemeData: This is a factory constructor found in '.../flutter/lib/src/material/theme_data.dart' and possibly used in other files.
 
-4. Message Names:
-   - `wordAdded`
-   - `wordUpdated`
-   - `wordDeleted`
-   - `flashcardUpdated`
-   - `messageSent`
+4. VocabularyListWidget: This is a class defined in 'lib/widgets/vocabulary_list_widget.dart' and used in 'lib/screens/vocabulary_list_screen.dart'.
 
-5. Function Names:
-   - `getVocabularyList`
-   - `getFlashcards`
-   - `getChatMessages`
-   - `addWord`
-   - `updateWord`
-   - `deleteWord`
-   - `updateFlashcard`
-   - `sendMessage`
+5. snapshot.data: This is a positional argument passed in 'lib/screens/vocabulary_list_screen.dart' to the VocabularyListWidget constructor.
 
-6. Shared Libraries:
-   - `flutter/material.dart` (for UI components)
-   - `flutter/services.dart` (for services)
+6. List<Word>: This is a type used in 'lib/screens/vocabulary_list_screen.dart' and defined in 'lib/models/word.dart'.
 
-7. Shared Styles:
-   - `appTheme` (for the application's theme)
-   - `wordStyle` (for the style of the words)
-   - `flashcardStyle` (for the style of the flashcards)
-   - `chatStyle` (for the style of the chat)
+7. Future<List<Word>>: This is a type used in 'lib/screens/vocabulary_list_screen.dart'.
 
-8. Shared Assets:
-   - `assets/images/`
-   - `assets/fonts/`
+8. Provider.of<VocabularyService>: This is a function call in 'lib/screens/vocabulary_list_screen.dart' that returns a Future<List<Word>>.
+
+9. getVocabularyList(): This is a method of the VocabularyService class used in 'lib/screens/vocabulary_list_screen.dart'.
