@@ -1,4 +1,3 @@
-```dart
 class Chat {
   final String message;
   final String sender;
@@ -19,4 +18,3 @@ class Chat {
     };
   }
 }
-```

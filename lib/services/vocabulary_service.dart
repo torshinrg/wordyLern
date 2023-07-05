@@ -1,4 +1,3 @@
-```dart
 import 'package:flutter/material.dart';
 import '../models/word.dart';
 
@@ -34,4 +33,3 @@ class VocabularyService {
     // Implementation of notifying listeners goes here
   }
 }
-```

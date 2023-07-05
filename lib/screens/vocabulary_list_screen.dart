@@ -1,10 +1,9 @@
-```dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:your_app_name/models/word.dart';
-import 'package:your_app_name/services/vocabulary_service.dart';
-import 'package:your_app_name/utils/styles.dart';
-import 'package:your_app_name/widgets/vocabulary_list_widget.dart';
+import 'package:word_learning_app/models/word.dart';
+import 'package:word_learning_app/services/vocabulary_service.dart';
+import 'package:word_learning_app/utils/styles.dart';
+import 'package:word_learning_app/widgets/vocabulary_list_widget.dart';
 
 class VocabularyListScreen extends StatelessWidget {
   @override
@@ -36,4 +35,3 @@ class VocabularyListScreen extends StatelessWidget {
     );
   }
 }
-```

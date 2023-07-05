@@ -1,6 +1,5 @@
-```dart
 import 'package:flutter/material.dart';
-import 'package:your_app/models/chat.dart';
+import 'package:word_learning_app/models/chat.dart';
 
 class ChatService {
   List<Chat> _chatMessages = [];
@@ -14,4 +13,3 @@ class ChatService {
     notifyListeners();
   }
 }
-```

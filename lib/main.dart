@@ -1,4 +1,3 @@
-```dart
 import 'package:flutter/material.dart';
 import 'package:word_learning_app/utils/styles.dart';
 import 'package:word_learning_app/screens/vocabulary_list_screen.dart';
@@ -24,4 +23,3 @@ class WordLearningApp extends StatelessWidget {
     );
   }
 }
-```

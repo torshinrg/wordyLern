@@ -1,4 +1,3 @@
-```dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/flashcard.dart';
@@ -30,4 +29,3 @@ class FlashcardWidget extends StatelessWidget {
     );
   }
 }
-```

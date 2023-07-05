@@ -1,4 +1,3 @@
-```dart
 class Flashcard {
   String word;
   int learningStatus;
@@ -19,4 +18,3 @@ class Flashcard {
     };
   }
 }
-```

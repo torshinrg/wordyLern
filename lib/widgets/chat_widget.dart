@@ -1,9 +1,8 @@
-```dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:your_app/models/chat.dart';
-import 'package:your_app/services/chat_service.dart';
-import 'package:your_app/utils/styles.dart';
+import 'package:word_learning_app/models/chat.dart';
+import 'package:word_learning_app/services/chat_service.dart';
+import 'package:word_learning_app/utils/styles.dart';
 
 class ChatWidget extends StatefulWidget {
   @override
@@ -61,4 +60,3 @@ class _ChatWidgetState extends State<ChatWidget> {
     );
   }
 }
-```
